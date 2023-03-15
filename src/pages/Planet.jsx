@@ -3,6 +3,9 @@ import { useParams } from 'react-router'
 import Nav from '../components/Nav'
 import { mercury, venus, earth, mars, jupiter, saturn, uranus, neptune } from '../config'
 import PlanetImg from '../components/planets/PlanetImg'
+import { ThemeProvider } from 'styled-components'
+import GlobalStyle from '../styles/GlobalStyle'
+import theme from '../styles/theme'
 
 const Planet = () => {
   const planet = useParams().planet
@@ -16,14 +19,14 @@ const Planet = () => {
   }, [planet, planets])
 
   return (
+    <ThemeProvider theme={theme} >
+      <GlobalStyle/>
     <>
-    <Nav/>
+    <Nav planet={planet}/>
     <div>
-      {data?.name}
-      {data?.overview.content}
-      <PlanetImg name={planet}/>
     </div>
     </>
+    </ThemeProvider>
   )
 }
 
