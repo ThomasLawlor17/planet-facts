@@ -8,7 +8,6 @@ html {
     box-sizing: border-box;
     width: 100%;
     scroll-behavior: smooth;
-    background-color: var(--navy);
 }
 
 *,
@@ -27,6 +26,16 @@ html {
 body {
     font-family: 'spartan', sans-serif;
     color: var(--white);
+    background-color: var(--navy);
+    background-repeat: no-repeat;
+    background-position: center 10%;
+
+    @media (max-width: 769px) {
+        background-position: center 11%;
+    }
+    @media (max-width: 550px) {
+        background-position: center 13.3%;
+    }
 }
 
 h1 {
