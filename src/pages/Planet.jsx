@@ -251,6 +251,13 @@ li {
   li:not(:first-of-type) {
     margin: 0;
   }
+  li {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  }
 
   &::after {
     content: '';
