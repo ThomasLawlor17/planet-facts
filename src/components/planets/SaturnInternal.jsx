@@ -4,7 +4,8 @@ const SaturnInternal = () => {
 	return (
 		<svg
 			fill="none"
-			viewBox="48.11 48.1 571.79 571.79">
+			viewBox="48.11 48.1 571.79 571.79"
+			id="saturn">
 			<path
 				fillRule="evenodd"
 				clipRule="evenodd"

@@ -2,8 +2,7 @@ import React from "react";
 
 const Neptune = () => {
 	return (
-		<svg
-			viewBox="-152.82 0 842 454">
+		<svg id="neptune" viewBox="0 0 450 450">
 			<defs>
 				<circle id="a" cx="225" cy="225" r="225"></circle>
 				<circle id="c" cx="225" cy="225" r="225"></circle>

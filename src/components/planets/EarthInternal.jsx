@@ -2,7 +2,7 @@ import React from "react";
 
 const EarthInternal = () => {
 	return (
-		<svg viewBox = "-41 -33 722 528">
+		<svg id="earth" viewBox="0 0 450 450">
 			<defs>
 				<circle id="a" cx="225" cy="225" r="225" />
 				<circle id="c" cx="225" cy="225" r="225" />
@@ -85,5 +85,3 @@ const EarthInternal = () => {
 };
 
 export default EarthInternal;
-
-

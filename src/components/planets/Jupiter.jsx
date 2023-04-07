@@ -2,7 +2,7 @@ import React from "react";
 
 const Jupiter = () => {
 	return (
-		<svg fill="none" viewBox="0 0 582 582">
+		<svg fill="none" viewBox="0 0 582 582" id="jupiter">
 			<circle cx="291" cy="291" r="291" fill="#ECAD7A"></circle>
 			<mask
 				id="a"

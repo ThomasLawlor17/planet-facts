@@ -2,7 +2,7 @@ import React from "react";
 
 const UranusInternal = () => {
 	return (
-		<svg fill="none" viewBox="0 0 458 458">
+		<svg fill="none" viewBox="0 0 458 458" id="uranus">
 			<circle cx="229" cy="229" r="229" fill="#65F0D5"></circle>
 			<mask
 				id="a"

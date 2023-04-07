@@ -2,7 +2,7 @@ import React from "react";
 
 const Venus = () => {
 	return (
-		<svg viewBox="-65.5 -25 520.5 450">
+		<svg id="venus" viewBox="0 0 400 400">
 			<defs>
 				<circle id="a" cx="200" cy="200" r="200" />
 				<circle id="c" cx="200" cy="200" r="200" />

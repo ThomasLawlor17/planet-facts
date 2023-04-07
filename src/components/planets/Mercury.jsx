@@ -2,7 +2,7 @@ import React from "react";
 
 const Mercury = () => {
 	return (
-		<svg viewBox="-10 0 301 290">
+		<svg id="mercury" viewBox="0 0 290 290">
 			<defs>
 				<circle id="a" cx="145" cy="145" r="145" />
 				<circle id="c" cx="145" cy="145" r="145" />
