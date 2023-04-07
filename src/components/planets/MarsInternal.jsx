@@ -2,7 +2,7 @@ import React from "react";
 
 const MarsInternal = () => {
 	return (
-		<svg viewBox="-33 -16 426 376">
+		<svg id='mars' viewBox="0 0 336 336">
 			<defs>
 				<circle id="a" cx="168" cy="168" r="168" />
 				<circle id="c" cx="168" cy="168" r="168" />

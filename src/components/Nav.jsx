@@ -143,13 +143,21 @@ span.logo {
     .links {
         position: absolute;
         top: var(--nav-height-mobile);
-        width: calc(100% - 12.8%);
+        width: 100%;
+        height: calc(100vh - var(--nav-height-mobile));
+        padding: 24px;
         left: 0;
         flex-direction: column;
+        justify-content: flex-start;
         visibility: hidden;
+        transform: translateX(-100vw);
         z-index: -1;
-        padding: 7.3357859532% 6.4% 0 6.4%;
         background-color: var(--navy);
+        transition: all 0.4s ease-in-out;
+
+        &.open {
+            transform: translateX(0);
+        }
 
         a {
             span {

@@ -29,6 +29,7 @@ body {
     background-color: var(--navy);
     background-repeat: no-repeat;
     background-position: center 10%;
+    margin: 0;
 
     @media (max-width: 769px) {
         background-position: center 11%;
@@ -57,7 +58,7 @@ h2 {
     text-transform: uppercase;
 }
 h3 {
-    font-family: 'Spartan';
+    font-family: 'Spartan', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 12px;
@@ -66,7 +67,7 @@ h3 {
     text-transform: uppercase;
 }
 h4 {
-    font-family: 'Spartan';
+    font-family: 'Spartan', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 11px;
@@ -75,7 +76,7 @@ h4 {
     text-transform: uppercase;
 }
 p {
-    font-family: 'Spartan';
+    font-family: 'Spartan', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -84,7 +85,17 @@ p {
 a {
     text-decoration: none;
 }
+@media (max-width: 900px) {
+    h1 {
+        font-size: 48px;
+        line-height: 62.11px;
+    }
 
+    p {
+        font-size: 11px;
+        line-height: 22px;
+    }
+}
 
 
 `;

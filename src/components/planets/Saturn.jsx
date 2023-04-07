@@ -2,7 +2,7 @@ import React from "react";
 
 const Saturn = () => {
 	return (
-		<svg fill="none" viewBox="48.11 48.1 571.79 571.79">
+		<svg fill="none" viewBox="48.11 48.1 571.79 571.79" id="saturn">
 			<path
 				fillRule="evenodd"
 				clipRule="evenodd"
