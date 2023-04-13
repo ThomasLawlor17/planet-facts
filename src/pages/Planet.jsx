@@ -59,112 +59,113 @@ img {
 
 svg {
   position: relative;
+  width: fill-available;
+  height: fill-available;
 }
 
 #mercury {
-  width: 290px;
-  height: 290px;
+  max-width: 290px;
+  max-height: 290px;
 }
 #venus {
-  width: 400px;
-  height: 400px;
+  max-width: 400px;
+  max-height: 400px;
 }
 #earth {
-  width: 450px;
-  height: 450px;
+  max-width: 450px;
+  max-height: 450px;
 }
 #mars {
-  width: 336px;
-  height: 336px;
+  max-width: 336px;
+  max-height: 336px;
 }
 #jupiter {
-  width: 582px;
-  height: 582px;
+  max-width: 582px;
+  max-height: 582px;
 }
 #saturn {
-  width: 666.09px;
-  height: 666.09px;
+  max-width: 666.09px;
+  max-height: 666.09px;
 }
 #uranus {
-  width: 458px;
-  height: 458px;
+  max-width: 458px;
+  max-height: 458px;
 }
 #neptune {
-  width: 450px;
-  height: 450px;
+  max-width: 450px;
+  max-height: 450px;
 }
 @media (max-width: 1100px) {
   #mercury {
-    width: 184px;
-    height: 184px;
+    max-width: 184px;
+    max-height: 184px;
   }
   #venus {
-    width: 253px;
-    height: 253px;
+    max-width: 253px;
+    max-height: 253px;
   }
   #earth {
-    width: 285px;
-    height: 285px;
+    max-width: 285px;
+    max-height: 285px;
   }
   #mars {
-    width: 213px;
-    height: 213px;
+    max-width: 213px;
+    max-height: 213px;
   }
   #jupiter {
-    width: 369px;
-    height: 369px;
+    max-width: 369px;
+    max-height: 369px;
   }
   #saturn {
-    width: 422px;
-    height: 422px;
+    max-width: 422px;
+    max-height: 422px;
   }
   #uranus {
-    width: 290px;
-    height: 290px;
+    max-width: 290px;
+    max-height: 290px;
   }
   #neptune {
-    width: 285px;
-    height: 285px;
+    max-width: 285px;
+    max-height: 285px;
   }
 }
 @media (max-width: 414px) {
   #mercury {
-    width: 111px;
-    height: 111px;
+    max-width: 111px;
+    max-height: 111px;
   }
   #venus {
-    width: 253px;
-    height: 253px;
+    max-width: 154px;
+    max-height: 154px;
   }
   #earth {
-    width: 154px;
-    height: 154px;
+    max-width: 173px;
+    max-height: 173px;
   }
   #mars {
-    width: 173px;
-    height: 173px;
+    max-width: 129px;
+    max-height: 129px;
   }
   #jupiter {
-    width: 224px;
-    height: 224px;
+    max-width: 224px;
+    max-height: 224px;
   }
   #saturn {
-    width: 256px;
-    height: 256px;
+    max-width: 256px;
+    max-height: 256px;
   }
   #uranus {
-    width: 176px;
-    height: 176px;
+    max-width: 176px;
+    max-height: 176px;
   }
   #neptune {
-    width: 173px;
-    height: 173px;
+    max-width: 173px;
+    max-height: 173px;
   }
 }
 @media (max-width: 900px) {
   grid-area: 1 / 1 / 2 / 3;
   height: 45vh;
-  padding: 0;
 
   img {
     bottom: 10px;
@@ -173,6 +174,7 @@ svg {
 @media (max-width: 414px) {
   grid-area: 2 / 1 / 3 / 2;
   height: 304px;
+  padding: 0;
 }
 `
 
