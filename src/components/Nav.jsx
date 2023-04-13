@@ -11,7 +11,7 @@ width: 100%;
 position: absolute;
 top: 0;
 left: 0;
-span.logo {
+a.logo {
     font-family: 'Antonio';
     font-style: normal;
     font-weight: 400;
@@ -21,7 +21,7 @@ span.logo {
     text-transform: uppercase;
     color: var(--white);
     user-select: none;
-    margin-left: 2.22222222222%;
+    margin-left: 24px;
 }
 .hb {
     display: none;
@@ -211,7 +211,7 @@ const Nav = ({planet}) => {
 
   return (
     <StyledNav planet={planet}>
-        <span className='logo'>THE PLANETS</span>
+        <Link to='/' className='logo'>THE PLANETS</Link>
         <div className={`links${navOpen ? ' open' : ''}`}>
             {planets.map((planet, i) => (
                 <Link key={i} to={`/${planet}`} className={`${planet}-link`} onClick={() => setNavOpen(false)}><span>{planet}</span><Icon name='chevron'/></Link>
